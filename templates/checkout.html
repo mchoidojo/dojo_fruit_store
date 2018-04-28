@@ -1,0 +1,80 @@
+<html>
+<head>
+    <title>Dojo Fruit Store Assignment</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.css') }}">
+</head>
+<body>
+
+    <header>
+        <div class="navbar navbar-dark bg-dark box-shadow">
+          <div class="container d-flex justify-content-between">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+              <strong>Dojo Fruit Cart</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </div>
+      </header>
+  
+      <main role="main">
+  
+        <section class="jumbotron text-center">
+          <div class="container">
+            <h1 class="jumbotron-heading">Thank you for your order!</h1>
+            <p class="lead text-muted">We ordered 5 items for you and charged your student account on March 23rd 2019 5:15:35 PM.</p>
+          </div>
+        </section>
+  
+        <div class="album py-5 bg-light">
+          <div class="container">
+                <h4 class="mb-3">You have ordered</h4>
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th>Fruit Name</th>
+                        <th>Quantity</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Strawberry</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>Raspberry</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>Apple</td>
+                        <td>2</td>
+                    </tr>
+                    </tbody>
+                </table>
+  
+                <h4 class="mb-3">Your Information</h4>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        First Name: Michael
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        Last Name: Choi
+                    </div>
+                </div>
+  
+                <div class="mb-3">
+                    Your Student ID: 123-456-7890
+                </div>
+              
+                <hr class="mb-4">
+                <a class="btn btn-primary btn-lg btn-block" href="/">Go Back</a>
+            
+          </div>
+        </div>
+  
+      </main>
+      
+</body>
+</html>
